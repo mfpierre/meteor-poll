@@ -1,4 +1,6 @@
 <template name="questionPage">
   {{> questionItem}}
-  {{> answersList}}
+  {{#each answers}}
+    {{> answerItem}}
+  {{/each}}
 </template>
