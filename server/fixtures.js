@@ -11,7 +11,7 @@ if (Questions.find().count() === 0) {
 
   Answers.insert({
     question_id: question1,
-    title: 'Did\'nt try it yet, but seems great',
+    title: 'Didn\'t try it yet, but seems great',
     count: 0
   });
 
