@@ -1,8 +1,6 @@
 <template name="answerItem">
-  <div class="answer">
-    <div class="answer-content">
-      <p>{{title}} ({{count}})</p>
-      <button class="vote btn btn-default">Vote</button>
-    </div>
-  </div>
+  <li data-count="{{count}}">
+    <p>{{title}} ({{count}})</p>
+    <button class="vote btn btn-default">Vote</button>
+  </li>
 </template>
