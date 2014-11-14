@@ -35,6 +35,7 @@ livedata@1.0.11
 logging@1.0.5
 meteor-platform@1.2.0
 meteor@1.1.3
+mfpierre:chartist-js@1.0.0
 minifiers@1.1.2
 minimongo@1.0.5
 mizzao:bootstrap-3@3.3.0
