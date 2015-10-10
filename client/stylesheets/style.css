@@ -1,9 +1,71 @@
 .container {
   padding: 15px;
 }
+
 .answers-list {
   padding-left: 35px;
 }
+
 .ct-label {
   font-size: 1em !important;
+}
+
+.ct-answer {
+  padding: 10px;
+}
+
+.ct-answer-a {
+    border-left: 10px solid #d70206;
+}
+
+.ct-answer-b {
+    border-left: 10px solid #f05b4f;
+}
+
+.ct-answer-c {
+    border-left: 10px solid #f4c63d;
+}
+
+.ct-answer-d {
+    border-left: 10px solid #d17905;
+}
+
+.ct-answer-e {
+    border-left: 10px solid #453d3f;
+}
+
+.ct-answer-f {
+    border-left: 10px solid #59922b;
+}
+
+.ct-answer-h {
+    border-left: 10px solid #6b0392;
+}
+
+.ct-answer-i {
+    border-left: 10px solid #f05b4f;
+}
+
+.ct-answer-j {
+    border-left: 10px solid #dda458;
+}
+
+.ct-answer-k {
+    border-left: 10px solid #eacf7d;
+}
+
+.ct-answer-l {
+    border-left: 10px solid #86797d;
+}
+
+.ct-answer-m {
+    border-left: 10px solid #b2c326;
+}
+
+.ct-answer-n {
+    border-left: 10px solid #6188e2;
+}
+
+.ct-answer-o {
+    border-left: 10px solid #a748ca;
 }
