@@ -23,6 +23,10 @@ function drawChart(data) {
 }
 
 Template.questionPage.helpers({
+  getChartistColor: function(index) {
+    letterIndex = String.fromCharCode(97 + index);
+    return 'ct-answer-' + letterIndex;
+  },
   answers: function() {
     return Answers.find({question_id: this._id});
   },

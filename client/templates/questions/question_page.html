@@ -1,11 +1,13 @@
 <template name="questionPage">
   {{> questionItem}}
   <div class="row">
-    <ol class="answers-list col-md-6">
+    <div class="answers-list col-md-6">
       {{#each answers}}
-        {{> answerItem}}
+        <div class="ct-answer {{getChartistColor @index}}">
+          {{> answerItem}}
+        </div>
       {{/each}}
-    </ol>
+    </div>
     <div class="col-md-6">
       <div class="ct-chart ct-perfect-fourth">{{ drawChart }}</div>
     </div>

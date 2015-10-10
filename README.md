@@ -7,7 +7,7 @@ Simple poll app built with Meteor JS. It uses the [Chartist package](https://git
 [meteor-poll.meteor.com](http://meteor-poll.meteor.com/)
 
 ## Todo
-- [ ] Bind chart colors to answers
+- [x] Bind chart colors to answers
 - [ ] Create Questions
 - [ ] Remove insecure package
 - [ ] Check vote uniqueness ?
